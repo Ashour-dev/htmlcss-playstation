@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .jumbotron{
     background-image: url('img/jumbo-bg.png');
     height: 80vh;
@@ -29,11 +32,23 @@
     height: 30vh;
 }
 .icon{
-    border-radius: 1.25rem;
+    border-radius: 1.4rem;
+}
+.icon-frame{
+    border-radius: 1.6rem;
 }
 .p-right5{
     padding-right: 5rem;
 }
-.p-custom-0{
-    padding: 0rem;
+.p-custom-1{
+    padding: .08rem;
+}
+.icons>div{
+    margin-top: 1rem;
+}
+.C-ps5>.txt{
+    height: 13rem;
+}
+.moreinfo{
+    width: 183px;
 }
