@@ -66,9 +66,33 @@ div[class*=row]{
 .my-active{
     border-bottom: 2px solid rgb(51, 98, 250);
 }
-.Psp-1{
+.Psp-1, .Psn-1{
     padding: 3rem 0.7rem;
 }
+.PSnow{
+    background-color: #161c3b   ;
+}
+.footer{
+    background-color: #00439c;
+}
+.col-fot{
+    padding: 4rem 0;
+}
+.col-fot>img{
+    width: 15%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+/* .Psp-2, .Psn-2{
+    min-width: 409.2px;
+} */
+/* @media  and (max-width:992px) {
+    .PSplus{
+        max-height:300.11px ;
+    }
+} */
+
+
 
 
 
@@ -82,8 +106,5 @@ div[class*=row]{
     }
     .p-right5{
         padding-right: 3rem;
-    }
-    .Psp-2{
-        display: none;
     }
 }
