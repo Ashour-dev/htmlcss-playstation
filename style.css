@@ -83,6 +83,24 @@ div[class*=row]{
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
+.my-opacity-75{ /*quello è stato fatto per avere la possibiltà di sovrascriverlo col hover*/
+    opacity: .75;
+    margin-bottom: 2px;
+}
+.product:hover{
+    opacity: 1;
+    margin-bottom: 0;
+    border-bottom: 2px solid rgb(51, 98, 250);
+}
+.grow img {
+    transition: all .2s ease-in; 
+}
+.grow img:hover{
+    transform: scale(1.04);
+}
+.no-grow{
+    transform: scale(1)!important;
+}
 /* .Psp-2, .Psn-2{
     min-width: 409.2px;
 } */
