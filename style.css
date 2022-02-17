@@ -3,19 +3,26 @@ body{
 }
 .jumbotron{
     background-image: url('img/jumbo-bg.png');
-    height: 80vh;
     background-size:cover;
+}
+.jumbocol{
+    margin-top: 30vh;
+    height: 45vh;
 }
 .banner{
     background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
-    height: 80vh;
     background-size:cover;
+}
+.ittakestwo{
+    margin-top: 12vh;
+    height: 60vh;
 }
 .cont{
     margin-top: 104.5px;
 }
 div[class*=row]{
-    margin:0 2rem;
+    padding:0 2rem;
+    margin: 0;
 }
 .orange{
     background-color: rgb(255, 102, 0);
@@ -58,4 +65,25 @@ div[class*=row]{
 }
 .my-active{
     border-bottom: 2px solid rgb(51, 98, 250);
+}
+.Psp-1{
+    padding: 3rem 0.7rem;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .product span{
+        display: none;
+    }
+    .product{
+        padding: 0 0.4rem;
+    }
+    .p-right5{
+        padding-right: 3rem;
+    }
+    .Psp-2{
+        display: none;
+    }
 }
