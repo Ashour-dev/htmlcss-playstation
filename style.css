@@ -4,6 +4,7 @@ body{
 .jumbotron{
     background-image: url('img/jumbo-bg.png');
     background-size:cover;
+    background-position: center;
 }
 .jumbocol{
     margin-top: 30vh;
